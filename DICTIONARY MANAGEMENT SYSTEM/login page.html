@@ -1,0 +1,72 @@
+<html>
+<head>
+<style>
+html 
+{ 
+  background: url(bgimage.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+.pos{  
+		border-size:60px;
+		border-style:dotted;
+		border-radius:30px;
+		height:300px;
+		width:450px;
+		
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+    }
+.font{
+	font-size:30px;
+	font-family:algerian;
+}
+.but{
+	background-color:grey;
+	border-radius:15px;
+}
+h1{
+	font-size:60px;
+	font-family:algerian;
+}
+h2 {font-size:20px;
+	font-family:algerian;
+}
+.dir{
+	margin-top:70px;
+	margin-left:50px;
+}
+</style>
+<title>
+Login Page::
+</title>
+</head>
+<body>
+<center><h1>DICTIONARY MANAGEMENT SYSTEM</h1><br></center><br>
+<center><h2>--PLEASE LOGIN TO ACCESS DICTIONARY--</h2></center>
+
+<div class="pos">
+	<form name="frm1" method="post" action="main.html" onsubmit="f1();">
+		<div class="dir">
+		<table>
+			<tr class="font">
+				<td><b>USERNAME</b></td>
+				<td><input type="text" style="margin-left:10px;" required></td>
+			</tr>
+			<tr class="font">
+				<td><b>PASSWORD</b></td>
+				<td><input type="password" style="margin-left:10px;" required></td>
+			</tr>
+		</table>
+	
+		</div>
+		<p><center><button class="but font" type="submit" value="Submit">Login</button></center></p>
+	</form>
+</div>
+			
+
+
+</body>
+</html>
